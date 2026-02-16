@@ -8,3 +8,4 @@ select
  cast(number_of_reviews as integer) as number_of_reviews,
  cast(availability_365 as integer) as availability_365
 from {{ source('dbt_airbnb_listing', 'listings') }}
+
